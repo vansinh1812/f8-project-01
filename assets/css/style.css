@@ -5,7 +5,7 @@
   --primary-color: #0f1b4c;
 }
 html {
-  font-style: 62.5%;
+  font-size: 62.5%;
 }
 body {
   font-size: 1.6em;
@@ -28,7 +28,7 @@ a {
   background: var(--primary-color);
   border-radius: 8px;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 14px;
   text-align: center;
   color: #ffffff;
 }
@@ -43,7 +43,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 38px;
 }
 .navbar ul {
   display: flex;
@@ -69,4 +69,26 @@ a {
 }
 .navbar ul a:hover {
   text-decoration: underline;
+}
+/* Hero */
+.hero {
+  margin-top: 130px;
+}
+.hero .sub-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #687690;
+}
+.hero .title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+
+  color: #000336;
+  margin-top: 8px;
+}
+.hero .info {
+  width: 51%;
 }
