@@ -37,6 +37,7 @@ a {
 }
 /* Header */
 .header {
+  position: relative;
   background: #e6f0ff;
   height: 100vh;
 }
@@ -62,10 +63,10 @@ a {
   font-weight: 500;
   font-size: 1.4rem;
   color: var(--primary-color);
+  margin-right: 18px;
 }
-.navbar action-btn {
+.navbar .action-btn {
   padding: 13px 16px;
-  margin-left: 18px;
 }
 .navbar ul a:hover {
   text-decoration: underline;
@@ -91,4 +92,20 @@ a {
 }
 .hero .info {
   width: 51%;
+}
+.hero .decs {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  margin-top: 30px;
+  color: #5a6473;
+}
+.hero .hero-cta {
+  min-width: 170px;
+  margin-top: 40px;
+}
+.hero-img {
+  position: absolute;
+  right: calc((100vw - 1110px) / 2 - 100px);
+  bottom: 0px;
 }
